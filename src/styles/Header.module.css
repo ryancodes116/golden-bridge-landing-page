@@ -1,0 +1,27 @@
+.header {
+  background-color: #fafafa;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+.image {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.text {
+  color: hsl(233, 8%, 62%);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 55%;
+  margin: 0 auto;
+}

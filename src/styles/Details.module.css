@@ -1,0 +1,19 @@
+.details {
+  background-color: #f4f5f7;
+  padding: 5rem 0 3rem;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 4rem;
+}
+
+.title {
+  color: hsl(233, 26%, 24%);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: hsl(233, 8%, 62%);
+}

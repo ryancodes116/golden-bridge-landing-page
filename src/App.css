@@ -15,15 +15,44 @@ body {
   min-height: 100vh;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
 img {
   max-width: 100%;
 }
 
 p {
-  line-height: 1.7;
+  line-height: 2;
 }
 
 ul {
   list-style: none;
   margin: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%) 20%,
+    hsl(192, 70%, 51%)
+  );
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
