@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Details.module.css';
-import Service from './Service';
+import Detail from './Detail';
 import online from '../images/icon-online.svg';
 import budgeting from '../images/icon-budgeting.svg';
 import onboarding from '../images/icon-onboarding.svg';
@@ -20,25 +20,25 @@ const Details = () => {
           </p>
         </div>
         <div className={styles.services}>
-          <Service
+          <Detail
             image={online}
             alt="credit card icon"
             title="Affordable Pricing"
             text="Receive professional service from proven experts at an affordable price. Great service doesn't need to break the bank."
           />
-          <Service
+          <Detail
             image={budgeting}
             alt="phone icon"
             title="Convenient Scheduling"
             text="Have a busy schedule? No problem. We work around your schedule to make sure you're taken care of as efficiently as possible."
           />
-          <Service
+          <Detail
             image={onboarding}
             alt="people talking icon"
             title="Frequently Referred"
             text="Our expertise and attention-to-detail is second to none, just ask our clients. Most of our business comes from good ol' fashioned referrals."
           />
-          <Service
+          <Detail
             image={api}
             alt="technology icon"
             title="Modern Technology"

@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Header.module.css';
 import skyscraper from '../images/skyscraper.jpg';
+import Services from './Services';
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
         <button className={classNames('btn', styles.btn)}>
           Schedule Appointment
         </button>
+        <Services />
       </div>
     </div>
   );
