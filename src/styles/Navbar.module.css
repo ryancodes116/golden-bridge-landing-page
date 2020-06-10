@@ -1,5 +1,6 @@
 .navbar {
   padding: 1rem 0;
+  max-width: none;
 }
 
 .navbarContent {
@@ -10,4 +11,10 @@
 
 .logo {
   color: hsl(233, 26%, 24%);
+}
+
+.btn {
+  width: 50%;
+  max-width: 235px;
+  font-size: 0.8rem;
 }

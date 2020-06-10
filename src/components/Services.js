@@ -15,7 +15,7 @@ const Services = () => {
         <p className={styles.text}>Taxes</p>
       </a>
 
-      <a className={styles.service} href="#insurace">
+      <a className={styles.service} href="#insurance">
         <FontAwesomeIcon className={styles.icon} icon={faHandHoldingUsd} />
         <p className={styles.text}>Insurance</p>
       </a>

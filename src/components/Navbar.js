@@ -7,7 +7,9 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={classNames('container', styles.navbarContent)}>
         <h3 className={styles.logo}>Golden Coast</h3>
-        <button className="btn">Schedule Appointment</button>
+        <button className={classNames('btn', styles.btn)}>
+          Schedule Appointment
+        </button>
       </div>
     </div>
   );

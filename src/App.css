@@ -36,12 +36,13 @@ a {
 
 .container {
   width: 85%;
-  max-width: 480px;
+  max-width: 690px;
   margin: 0 auto;
 }
 
 .btn {
   padding: 1rem;
+  max-width: 245px;
   font-size: 0.9rem;
   background-image: linear-gradient(
     to right,
@@ -56,4 +57,11 @@ a {
 
 .btn:hover {
   opacity: 0.9;
+}
+
+/* Media Queries */
+@media (min-width: 990px) {
+  .container {
+    max-width: none;
+  }
 }
