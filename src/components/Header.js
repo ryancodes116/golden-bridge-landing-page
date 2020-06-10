@@ -25,7 +25,7 @@ const Header = () => {
             </p>
             <a
               className={classNames('btn', styles.btn)}
-              href="tel: +7148377489"
+              href="tel: +17148377489"
             >
               Call For Your Free Estimate{' '}
               <FontAwesomeIcon icon={faPhone} className={styles.icon} />

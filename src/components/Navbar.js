@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className={classNames('container', styles.navbarContent)}>
         <img className={styles.logo} src={logo} alt="Golden Coast logo" />
         {/* <h3 className={styles.logo}>Golden Coast</h3> */}
-        <a className={classNames('btn', styles.btn)} href="tel: +9513168413">
+        <a className={classNames('btn', styles.btn)} href="tel: +19513168413">
           Call 714-837-7489{' '}
           <FontAwesomeIcon className={styles.icon} icon={faPhone} />
         </a>
