@@ -1,6 +1,5 @@
 .navbar {
   padding: 1rem 0;
-  max-width: none;
 }
 
 .navbarContent {
@@ -14,7 +13,17 @@
 }
 
 .btn {
-  width: 50%;
+  padding: 0.8rem 1.5rem;
+  width: 45%;
   max-width: 235px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 0.8rem;
 }

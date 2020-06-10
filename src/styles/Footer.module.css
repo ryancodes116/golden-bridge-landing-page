@@ -5,15 +5,54 @@
   padding: 2rem 0;
 }
 
-.logo {
+.text {
   margin-bottom: 2rem;
+}
+
+.logo {
+  margin-bottom: 2.5rem;
 }
 
 .btn {
   width: 60%;
+  padding: 1rem 2rem;
   margin: 0 auto 2rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-right: 0.8rem;
 }
 
 .copyright {
   font-size: 0.9rem;
+  color: hsl(233, 8%, 62%);
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .btn {
+    margin: 0;
+  }
+
+  .copyright {
+    text-align: right;
+  }
 }

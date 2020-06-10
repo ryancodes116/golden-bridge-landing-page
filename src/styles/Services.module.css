@@ -2,8 +2,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* margin: 0 auto; */
-  /* text-align: center; */
 }
 
 .service {
@@ -36,10 +34,16 @@
 /* Media Queries */
 @media (min-width: 992px) {
   .services {
-    margin-top: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
   }
 
   .service {
     max-width: 275px;
+  }
+
+  .text {
+    font-size: 0.9rem;
   }
 }

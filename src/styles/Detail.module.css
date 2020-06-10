@@ -15,3 +15,12 @@
 .text {
   color: hsl(233, 8%, 62%);
 }
+
+/* Media Queries */
+@media (min-width: 992px) {
+  .detail {
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 4rem;
+  }
+}

@@ -17,3 +17,24 @@
 .subtitle {
   color: hsl(233, 8%, 62%);
 }
+
+/* Media Queries */
+@media (min-width: 992px) {
+  .details {
+    text-align: left;
+    padding: 5rem 0 5rem;
+  }
+
+  .description {
+    width: 60%;
+  }
+
+  .services {
+    display: flex;
+    align-items: center;
+  }
+
+  .services:last-child {
+    margin-right: 0;
+  }
+}

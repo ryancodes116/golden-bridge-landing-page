@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import styles from '../styles/Header.module.css';
 import skyscraper from '../images/skyscraper.jpg';
 import Services from './Services';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
@@ -21,9 +23,16 @@ const Header = () => {
               Services is your one-stop-shop for accounting, taxes,
               book-keeping, and much more.
             </p>
-            <button className={classNames('btn', styles.btn)}>
+            <a
+              className={classNames('btn', styles.btn)}
+              href="tel: +7148377489"
+            >
+              Schedule Appointment{' '}
+              <FontAwesomeIcon icon={faPhone} className={styles.icon} />
+            </a>
+            {/* <button className={classNames('btn', styles.btn)}>
               Schedule Appointment
-            </button>
+            </button> */}
           </div>
         </div>
 
