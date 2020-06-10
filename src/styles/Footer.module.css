@@ -25,6 +25,35 @@
   margin-right: 0.8rem;
 }
 
+.footerContact {
+  margin-bottom: 4.5rem;
+}
+
+.contactMethods {
+  margin-bottom: 4rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.contactText {
+  width: 70%;
+}
+
+.contactIcon {
+  margin-right: 2rem;
+}
+
+#locationIcon {
+  align-self: flex-start;
+  margin-top: 0.6rem;
+}
+
 .copyright {
   font-size: 0.9rem;
   color: hsl(233, 8%, 62%);
@@ -32,20 +61,33 @@
 
 /* Media Queries */
 @media (min-width: 992px) {
+  .footer {
+    padding: 4rem 0 2rem;
+  }
+
   .footerContent {
     display: flex;
     flex-direction: column;
   }
 
-  .text {
+  .logo {
+    margin-bottom: 3rem;
+    text-align: left;
+  }
+
+  .footerContact {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 3rem;
   }
 
-  .logo {
+  .contactMethods {
     margin-bottom: 0;
+  }
+
+  .contactText {
+    width: 50%;
   }
 
   .btn {
