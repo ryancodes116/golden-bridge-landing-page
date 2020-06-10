@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Detail.module.css';
 
-const Detail = ({ image, alt, title, text }) => {
+const Detail = ({ image, alt, title, text, marginRight }) => {
   return (
     <div className={styles.detail}>
       <img className={styles.image} src={image} alt={alt} />

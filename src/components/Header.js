@@ -27,7 +27,7 @@ const Header = () => {
               className={classNames('btn', styles.btn)}
               href="tel: +7148377489"
             >
-              Schedule Appointment{' '}
+              Call For Your Free Estimate{' '}
               <FontAwesomeIcon icon={faPhone} className={styles.icon} />
             </a>
             {/* <button className={classNames('btn', styles.btn)}>

@@ -10,7 +10,8 @@ const Navbar = () => {
       <div className={classNames('container', styles.navbarContent)}>
         <h3 className={styles.logo}>Golden Coast</h3>
         <a className={classNames('btn', styles.btn)} href="tel: +7148377489">
-          Call Today <FontAwesomeIcon className={styles.icon} icon={faPhone} />
+          Call 714-837-7489{' '}
+          <FontAwesomeIcon className={styles.icon} icon={faPhone} />
         </a>
       </div>
     </div>
