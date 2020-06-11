@@ -5,6 +5,7 @@ import {
   faLandmark,
   faHandHoldingUsd,
   faBook,
+  faCar,
 } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
@@ -23,6 +24,11 @@ const Services = () => {
       <a className={styles.service} href="#bookkeeping">
         <FontAwesomeIcon className={styles.icon} icon={faBook} />
         <p className={styles.text}>Bookkeeping</p>
+      </a>
+
+      <a className={styles.service} href="#auto">
+        <FontAwesomeIcon className={styles.icon} icon={faCar} />
+        <p className={styles.text}>Auto Registration</p>
       </a>
     </div>
   );

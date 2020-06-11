@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Footer.module.css';
-import logo from '../images/logo3.png';
+import logo from '../images/footerLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faMapMarkerAlt,
@@ -24,8 +24,7 @@ const Footer = () => {
                 id={styles.locationIcon}
               />
               <p className={styles.contactText}>
-                Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                316 E. Broadway Suite #2 Anaheim, CA 92805
               </p>
             </div>
             <div className={styles.contact}>

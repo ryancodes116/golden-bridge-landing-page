@@ -6,6 +6,7 @@ import ReverseService from './ReverseService';
 import taxes from '../images/taxes.jpg';
 import insurance from '../images/insurance.jpg';
 import bookkeeping from '../images/bookkeeping.jpg';
+import car from '../images/car.jpg';
 
 const ServiceInfo = () => {
   return (
@@ -25,18 +26,20 @@ const ServiceInfo = () => {
           title="Insurance"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend, nunc ac viverra molestie, sem est maximus urna, a lobortis est metus ut lacus."
         />
-        {/* <Service
-          image={insurance}
-          alt="open folder with tax documents sitting on top of desk"
-          title="Insurance"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend, nunc ac viverra molestie, sem est maximus urna, a lobortis est metus ut lacus."
-        /> */}
       </div>
       <div id="bookkeeping">
         <Service
           image={bookkeeping}
           alt="open folder with tax documents sitting on top of desk"
           title="Bookkeeping"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend, nunc ac viverra molestie, sem est maximus urna, a lobortis est metus ut lacus."
+        />
+      </div>
+      <div id="auto">
+        <ReverseService
+          image={car}
+          alt="black car parked on sand by the beach"
+          title="Auto Registration"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend, nunc ac viverra molestie, sem est maximus urna, a lobortis est metus ut lacus."
         />
       </div>

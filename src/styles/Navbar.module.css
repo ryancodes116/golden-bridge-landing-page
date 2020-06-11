@@ -1,5 +1,5 @@
 .navbar {
-  padding: 3rem 0 1rem;
+  padding: 1rem 0;
 }
 
 .navbarContent {
@@ -11,7 +11,7 @@
 .logo {
   width: 35%;
   max-width: 175px;
-  filter: brightness(0);
+  padding-bottom: 0.2rem;
 }
 
 .btn {
