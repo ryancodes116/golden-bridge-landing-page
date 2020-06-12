@@ -17,6 +17,7 @@
 .btn {
   padding: 0.8rem 1rem;
   width: 55%;
+  min-width: 195px;
   max-width: 235px;
   font-size: 0.9rem;
   text-align: center;
@@ -24,6 +25,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .icon {

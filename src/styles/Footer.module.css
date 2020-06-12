@@ -23,6 +23,11 @@
   text-transform: uppercase;
 }
 
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .icon {
   margin-right: 0.8rem;
 }

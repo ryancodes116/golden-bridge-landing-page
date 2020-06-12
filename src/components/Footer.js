@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           <a
-            className={classNames('btn', styles.btn)}
+            className={classNames('button', styles.btn)}
             href="mailto:golcen@yahoo.com"
           >
             <FontAwesomeIcon icon={faEnvelope} className={styles.icon} /> Email

@@ -35,12 +35,12 @@ a {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   max-width: 690px;
   margin: 0 auto;
 }
 
-.btn {
+.button {
   padding: 1rem 1.5rem;
   max-width: 245px;
   font-size: 0.9rem;
@@ -55,7 +55,7 @@ a {
   cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
   opacity: 0.9;
 }
 
