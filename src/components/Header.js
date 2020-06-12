@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Header.module.css';
-// import skyscraper from '../images/skyscraper.jpg';
 import ImageCarousel from './ImageCarousel';
 import Services from './Services';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,12 +11,8 @@ const Header = () => {
     <div className={styles.header}>
       <div className="container">
         <div className={styles.headerContent}>
-          <ImageCarousel className={styles.image} />
-          {/* <img
-            className={styles.image}
-            src={skyscraper}
-            alt="skyscraper overlooking a city at sunset"
-          /> */}
+          <ImageCarousel />
+
           <div className={classNames('container', styles.headerText)}>
             <h1 className={styles.title}>Next generation financial services</h1>
             <p className={styles.text}>

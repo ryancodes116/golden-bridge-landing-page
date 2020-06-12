@@ -24,7 +24,8 @@
 .text {
   color: hsl(233, 8%, 62%);
   font-size: 1rem;
-  margin-bottom: 2rem;
+  max-width: 803px;
+  margin: 0 auto 2rem;
 }
 
 .btn {
