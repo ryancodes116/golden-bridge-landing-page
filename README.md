@@ -4,4 +4,4 @@ Golden Coast Financial Services is a one-stop financial service firm serving Ora
 
 Built using React.js
 
-![](src/images/site-preview.png)
+![](src/images/desktop-preview.png)
