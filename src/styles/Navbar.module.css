@@ -17,9 +17,9 @@
 .btn {
   padding: 0.8rem 1rem;
   width: 55%;
-  min-width: 195px;
+  min-width: 180px;
   max-width: 235px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
   text-transform: uppercase;
   display: flex;
@@ -34,4 +34,11 @@
 
 .icon {
   margin-left: 0.8rem;
+}
+
+/* Media Queries */
+@media (min-width: 430px) {
+  .btn {
+    font-size: 0.9rem;
+  }
 }
