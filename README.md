@@ -4,4 +4,4 @@ Golden Bridge Financial Services is a one-stop financial service firm serving Or
 
 Built using React.js
 
-![](src/images/desktop-preview.png)
+![](src/images/desktop-preview.webp)
