@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import styles from '../styles/Service.module.css';
 
 const Service = ({
@@ -29,7 +30,7 @@ const Service = ({
           <p className={styles.spanishText}>{spanishText}</p>
           <div className={styles.subtext}>
             {subtext}
-            <ul>
+            <ul className={styles.list}>
               <li>
                 <strong>{service1}</strong> {service1Text}
               </li>
@@ -46,6 +47,12 @@ const Service = ({
                 <strong>{service5}</strong> {service5Text}
               </li>
             </ul>
+            <a
+              className={classNames('button', styles.btn)}
+              href="tel: +17148377489"
+            >
+              Call Today! Hablamos Español.{' '}
+            </a>
           </div>
         </div>
       </div>
