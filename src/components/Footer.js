@@ -9,6 +9,10 @@ import {
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 
+// Get year for footer copyright
+const date = new Date();
+const currentYear = date.getFullYear();
+
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -56,7 +60,7 @@ const Footer = () => {
         </div>
 
         <p className={styles.copyright}>
-          © Golden Bridge Financial Services. All Rights Reserved.
+          © {currentYear} Golden Bridge Financial Services. All Rights Reserved.
         </p>
       </div>
     </div>
