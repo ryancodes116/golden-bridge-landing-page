@@ -46,6 +46,10 @@
   text-decoration: none;
 }
 
+.icon {
+  margin-left: 0.8rem;
+}
+
 /* Media Queries */
 @media (min-width: 393px) {
   .btn {

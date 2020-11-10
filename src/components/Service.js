@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Service.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Service = ({
   image,
@@ -51,7 +53,8 @@ const Service = ({
               className={classNames('button', styles.btn)}
               href="tel: +17148377489"
             >
-              Call Today! Hablamos Español.{' '}
+              Call Today! Hablamos Español{' '}
+              <FontAwesomeIcon icon={faPhone} className={styles.icon} />
             </a>
           </div>
         </div>
