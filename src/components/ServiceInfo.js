@@ -6,10 +6,10 @@ import Service from './Service';
 import ReverseService from './ReverseService';
 import Bookkeeping from './Bookkeeping';
 
-import taxes from '../images/tax-service.jpg';
-import insurance from '../images/insurance-service.jpg';
-import bookkeeping from '../images/bookkeeping-service.jpg';
-import registration from '../images/registration-service.jpg';
+import taxes from '../images/tax-service.webp';
+import insurance from '../images/insurance-service.webp';
+import bookkeeping from '../images/bookkeeping-service.webp';
+import registration from '../images/registration-service.webp';
 
 const ServiceInfo = () => {
   return (

@@ -2,10 +2,10 @@ import React from 'react';
 import styles from '../styles/Carousel.module.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-import taxes from '../images/tax-image.png';
-import insurance from '../images/insurance-image.png';
-import bookkeeping from '../images/bookkeeping-image.png';
-import registration from '../images/registration-image.png';
+import taxes from '../images/tax-image.webp';
+import insurance from '../images/insurance-image.webp';
+import bookkeeping from '../images/bookkeeping-image.webp';
+import registration from '../images/registration-image.webp';
 
 const ImageCarousel = () => {
   return (
