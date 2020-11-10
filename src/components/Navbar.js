@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Navbar.module.css';
-import logo from '../images/golden-bridge-logo-1-test.webp';
+import logo from '../images/golden-bridge-logo-1.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
