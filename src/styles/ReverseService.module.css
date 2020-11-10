@@ -19,7 +19,8 @@
   margin-bottom: 1rem;
 }
 
-.text {
+.text,
+.spanishText {
   color: hsl(233, 8%, 62%);
   font-size: 1rem;
 }

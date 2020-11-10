@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from '../styles/Footer.module.css';
-import logo from '../images/footerLogo.png';
+import logo from '../images/golden-bridge-logo-2.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faMapMarkerAlt,
@@ -13,8 +13,11 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={classNames('container', styles.footerContent)}>
-        <img className={styles.logo} src={logo} alt="Golden Coast logo" />
-        {/* <h2 className={styles.logo}>Golden Coast</h2> */}
+        <img
+          className={styles.logo}
+          src={logo}
+          alt="Golden Coast Financial Services logo"
+        />
         <div className={styles.footerContact}>
           <div className={styles.contactMethods}>
             <div className={styles.contact}>
@@ -53,7 +56,7 @@ const Footer = () => {
         </div>
 
         <p className={styles.copyright}>
-          © Golden Coast Financial Services. All Rights Reserved.
+          © Golden Bridge Financial Services. All Rights Reserved.
         </p>
       </div>
     </div>

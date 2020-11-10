@@ -12,7 +12,7 @@ const Details = () => {
     <div className={styles.details}>
       <div className={classNames('container', styles.detailsContent)}>
         <div className={styles.description}>
-          <h2 className={styles.title}>Why choose Golden Coast?</h2>
+          <h2 className={styles.title}>Why choose Golden Bridge?</h2>
           <p className={styles.subtitle}>
             We leverage decades of professional experience to turn any financial
             situation into a favorable one. Control your finances like never
@@ -24,25 +24,25 @@ const Details = () => {
             image={online}
             alt="credit card icon"
             title="Affordable Pricing"
-            text="Receive professional service from proven experts at an affordable price. Great service doesn't need to break the bank."
+            // text="Receive professional service from proven experts at an affordable price. Great service doesn't need to break the bank."
           />
           <Detail
             image={budgeting}
             alt="phone icon"
             title="Convenient Scheduling"
-            text="Have a busy schedule? No problem. We work around your schedule to make sure you're taken care of as efficiently as possible."
+            // text="Have a busy schedule? No problem. We work around your schedule to make sure you're taken care of as efficiently as possible."
           />
           <Detail
             image={onboarding}
-            alt="people talking icon"
+            alt="referral icon"
             title="Frequently Referred"
-            text="Our expertise and attention-to-detail is second to none, just ask our clients. Most of our business comes from good ol' fashioned referrals."
+            // text="Our expertise and attention-to-detail is second to none, just ask our clients. Most of our business comes from good ol' fashioned referrals."
           />
           <Detail
             image={api}
             alt="technology icon"
             title="Modern Technology"
-            text="We enjoy working with the latest and greatest technology. Our modern software makes sure you get the greatest return on investment."
+            // text="We enjoy working with the latest and greatest technology. Our modern software makes sure you get the greatest return on investment."
           />
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/ReverseService.module.css';
 
-const ReverseService = ({ image, alt, title, text }) => {
+const ReverseService = ({ image, alt, title, text, spanishText }) => {
   return (
     <div>
       <div className={styles.service}>
@@ -10,6 +10,7 @@ const ReverseService = ({ image, alt, title, text }) => {
           <div className={styles.serviceText}>
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.text}>{text}</p>
+            <p className={styles.spanishText}>{spanishText}</p>
           </div>
         </div>
       </div>

@@ -10,13 +10,13 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className="container">
+        <ImageCarousel />
         <div className={styles.headerContent}>
-          <ImageCarousel />
-
           <div className={classNames('container', styles.headerText)}>
             <h1 className={styles.title}>Next generation financial services</h1>
+            <h2 className={styles.spanishText}>Hablamos Español</h2>
             <p className={styles.text}>
-              Take control of your financial situation. Golden Coast Financial
+              Take control of your financial situation. Golden Bridge Financial
               Services is your one-stop-shop for accounting, taxes,
               book-keeping, and much more.
             </p>

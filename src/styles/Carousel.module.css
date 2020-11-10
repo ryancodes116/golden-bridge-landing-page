@@ -1,13 +1,12 @@
 .carousel {
   margin-bottom: 1.5rem;
-  /* width: 100%; */
-  max-width: 670px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto 1.5rem;
 }
 
 @media (min-width: 992px) {
   .carousel {
-    max-width: 500px;
     margin: 0 auto 1.5rem;
   }
 }

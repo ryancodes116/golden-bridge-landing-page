@@ -13,12 +13,16 @@
 }
 
 .title {
-  color: hsl(233, 26%, 24%);
+  font-family: serif;
+  color: #110750;
   margin-bottom: 1rem;
   font-size: 2.2rem;
-  /* font-size: 2.5rem; */
   font-weight: 300;
   text-transform: capitalize;
+}
+
+.spanishText {
+  font-weight: bold;
 }
 
 .text {
@@ -82,14 +86,25 @@
 
   .headerText {
     margin-right: 4rem;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .spanishText {
+    font-size: 2rem;
   }
 
   .text {
+    font-size: 1.4rem;
     width: 90%;
-    margin: 0 0 2rem;
+    text-align: center;
   }
 
   .btn {
+    font-size: 1.2rem;
     margin-bottom: 0;
   }
 }
