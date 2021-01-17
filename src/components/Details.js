@@ -16,7 +16,8 @@ const Details = () => {
           <p className={styles.subtitle}>
             We leverage decades of professional experience to turn any financial
             situation into a favorable one. Control your finances like never
-            before.
+            before. Our office is located in Orange County. You can find us in
+            the city of Anaheim, CA.
           </p>
         </div>
         <div className={styles.services}>
