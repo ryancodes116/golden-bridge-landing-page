@@ -31,7 +31,7 @@ const Footer = () => {
                 id={styles.locationIcon}
               />
               <p className={styles.contactText}>
-                316 E. Broadway Suite #2 Anaheim, CA 92805
+                1203 S. Western Ave Anaheim, CA 92804
               </p>
             </div>
             <div className={styles.contact}>
